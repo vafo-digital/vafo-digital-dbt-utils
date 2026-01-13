@@ -1,0 +1,18 @@
+# vafo-digital-dbt-utils
+# Macros-only dbt package
+
+name: vafo_digital_dbt_utils
+version: "1.0.0"
+config-version: 2
+
+# This project provides macros only
+# A profile is not required unless running compile locally
+profile: vafo_digital_dbt_utils
+
+# Only macro paths are needed
+macro-paths: ["macros"]
+
+# Clean up build artifacts
+clean-targets:
+  - "target"
+  - "dbt_packages"

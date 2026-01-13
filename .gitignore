@@ -1,0 +1,45 @@
+# dbt profile (contains credentials — should never be committed)
+~/.dbt/
+.dbt/
+
+# Environment files and secrets
+.env
+
+# Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Mac/Linux system files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Jupyter and VSCode
+.ipynb_checkpoints/
+.vscode/
+
+# dbt artifacts
+dbt_packages/
+target/
+dbt_modules/
+manifest.json
+run_results.json
+
+# private keys
+*.p8
+
+# sql formatter 
+.sqlfluff
+
+# users local config 
+.user.yml
+
+# node package manager lock files
+package-lock.yml
