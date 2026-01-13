@@ -51,7 +51,7 @@ Add the package to your dbt project:
 # packages.yml
 packages:
   - git: "git@github.com:vafo-digital/vafo-digital-dbt-utils.git"
-    revision: v1.0.1
+    revision: v1.0.0 
 ```
 
 Then install dependencies:
